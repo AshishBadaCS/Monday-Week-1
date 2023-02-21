@@ -9,10 +9,31 @@ Student Last Name: Bada
 using namespace std;
 
 int main() {
-  cout << "Hello World!\n";
+  string name;
+  cout << "Hello CS-216!" << endl;
+  cout << "Enter your name: ";
+  getline(cin, name);
+  cout << "Welcome " << name << endl;
+
+return 0; 
+
 }
 
 /*********************************************
 // Output:
+Hello CS-216!
+Enter your name:  your name
+Welcome  your name
 
+For example:
+
+Hello CS-216!   
+Enter your name: Brad Gilbert   
+Welcome Brad Gilbert
+
+My example:
+
+Hello CS-216!
+Enter your name: Ashish Bada
+Welcome Ashish Bada
 **********************************************/
